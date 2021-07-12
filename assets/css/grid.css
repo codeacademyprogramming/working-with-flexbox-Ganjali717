@@ -7,11 +7,11 @@
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    border: 1px solid black;
-    /* for testing */
-    height: 500px;
+        width: 1200px;
+        margin: 0 auto;
+        border: 1px solid black;
+        /* for testing */
+        height: 500px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -34,12 +34,11 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
 }
 
-/* .col {
+.col {
     flex-grow: 1;
-} */
+}
 
 .col-1 {
     width: calc(1 / 12 * 100%);
@@ -63,6 +62,9 @@
 
 .col-6 {
     width: calc(6 / 12 * 100%);
+}
+.col-12{
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
