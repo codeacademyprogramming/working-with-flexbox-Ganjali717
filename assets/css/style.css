@@ -31,33 +31,31 @@
     flex-shrink: 1;
 }
 
-.box-specific {
-    flex-shrink: 2;
-}
-
-.flexbox-item {
-}
+/* .box-specific {
+    flex-shrink: 3;
+} */
 
 .flexbox-container-flex-grow {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     height: 100vh;
     /* align-content: center; */
-    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
 }
 
 .flexbox-flex-grow-item {
     font-size: 50px;
-    /* flex-grow: 1; */
-    width: 300px;
+    flex-grow: 1;
+    width: 400px;
     background-color: green;
     border: 2px solid yellow;
     /* align-self: center; */
 }
 
-/* .custom-grow {
-    flex-grow: 2;
-} */
+.custom-grow {
+    flex-grow: 1;
+}
 
 /* .custom-align {
     align-self: flex-start;

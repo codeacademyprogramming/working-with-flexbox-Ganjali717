@@ -1,0 +1,234 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col-1 {
+    width: calc(1 / 12 * 100%);
+}
+.col-2 {
+    width: calc(2 / 12 * 100%);
+}
+.col-3 {
+    width: calc(3 / 12 * 100%);
+}
+.col-4 {
+    width: calc(4 / 12 * 100%);
+}
+.col-5 {
+    width: calc(5 / 12 * 100%);
+}
+.col-6 {
+    width: calc(6 / 12 * 100%);
+}
+p.aralig{
+    text-align: center;
+    background-color: rgb(206,216,225);
+    color: rgb(28,200,160);
+}
+p.aralig-margin{
+    padding-top: 100px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* for testing */
+    height: max-content;
+}
+
+.flex-nav{
+    display: flex;
+    height: 40px;
+    background-color:rgb(15,43,64);
+}
+.flex-nav .nav-text{
+    display: inline;
+    color: rgb(28,200,160);
+    margin-left: 80px;
+}
+.flex-nav .nav-text p{
+    display: inline;
+    font-size: 15px;
+}
+.flex-nav .nav-position{
+    margin-top: 5px;
+}
+.flex-nav .nav-icons-position{
+    margin-left: 50%;
+}
+.flex-nav .nav-icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.flex-header{
+    display: flex;
+    height: 100px;
+    background-color: rgb(206,216,225);
+}
+.flex-header-right{
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.flex-header img.logo{
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+}
+.flex-header .header-list{
+    text-align: center;
+}
+.flex-header .header-list ul li{
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+}
+.flex-header .header-list ul li a{
+    text-decoration: none;
+    color: rgb(28,200,160);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 10px;
+}
+
+
+.flex-first-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(16,43,62);
+    height:  440px;
+}
+.flex-first-section .section-under-col{
+    /* margin: 195px auto; */
+    background-color: transparent;
+}
+.flex-first-section .section-under-col .section-under{
+     display: inline-block;
+     width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    margin-right: 50px;
+    background-color: rgb(28,200,160)
+}
+.flex-first-section .first-section-texts{
+    align-items: center;
+    text-align: center;
+    margin: 80px auto;
+    flex-direction: row;
+}
+.flex-first-section .first-section-texts i{
+    color: rgb(206,216,225);
+}
+.flex-first-section .first-section-texts button{
+    background-color: rgb(28,200,160);
+    padding: 10px 45px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(206,216,225);
+}
+.flex-first-section .first-section-texts p{
+    color: rgb(28,200,160);
+}
+
+
+.flex-second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(206,216,225);
+    height: 600px;
+}
+
+.flex-second-section div{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.second-section-col{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.second-section-col img{
+width: 100%;
+height: 100px;
+border-radius: 30px;
+padding: 10px;
+}
+
+.flex-third-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(206,216,225);
+    height: 500px;
+}
+
+.flex-third-section div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(28,200,160);
+}
+
+.flex-fourth-section{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206,216,225);
+    height: 300px;
+}
+.flex-fourth-section div{
+    width: 500px;
+    height: 200px;
+}
+
+.flex-fourth-section img{
+    width: 110px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.flex-fourth-section img.xususi-img{
+    width: 150px;
+    height: 140px;
+}
+
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgb(16,43,62);
+    height: 200px;
+}
+
+.flex-footer .foot-icons{
+   width: 50px;
+   height: 50px;
+   margin-left: 25px;
+}
+
+.flex-footer ul{
+    columns:3;
+list-style: none;
+width: 300px;
+margin-left: 50px;
+color: rgb(28,200,160);
+}
+.flex-footer ul li{
+   
+
+}
